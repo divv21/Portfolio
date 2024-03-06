@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    header{
+    height: 35px;
+    }
+    header nav ul{
+    display: flex;
+    margin-left: 70%;
+    list-style: none;
+    }
+    
+    header nav ul li{
+    padding-left: 10%;
+    }
+    
+    header a{
+    text-decoration: none;
+    color: rgb(255, 182, 73);
+    
+    }
+    
+    section{
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    .Container h2{
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    }
+    .Container p, ul{
+    margin-top: 2%;
+    font-size: 1.5rem;
+    }
+    
+    /**img{ 
+        height: 15rem;
+        width: 20rem;
+        align-items: center;
+        } **/
+
+    #intro h2{
+    color: rgb(46, 44, 73);
+    font-size: 3.5rem;
+    text-align: center;
+    }
+    #about .container{
+    margin: 7rem;
+    }
+    #about .container p{
+        font-size: 1.25rem;
+    }
+    #about .container h1{
+        font-size: 1.5rem;
+    }
+
+    #contact{
+        color: rgb(17, 14, 11);
+    }
+    
+    footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    }
+
+    #intro {
+        background-image: url(background.png);
+        background-repeat: round;
+        }
+        #about{
+        background-color: rgb(198, 114, 236);
+        }
+        #contact{
+        background-color: rgb(255, 176, 216);
+        }
